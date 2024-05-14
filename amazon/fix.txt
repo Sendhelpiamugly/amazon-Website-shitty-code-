@@ -1,0 +1,21 @@
+1. arrow key im topheader neben de
+2. amazon logo moving
+3. dropdown menü bei de im topheader, problem weil sich beide überlappen, lösung mit js code zb 
+// Selektieren Sie Ihre Dropdown-Menüs
+var dropdownMenus = document.querySelectorAll('.dropdown');
+
+// Fügen Sie einen Event-Listener für das Klicken außerhalb der Dropdown-Menüs hinzu
+document.addEventListener('click', function(event) {
+    dropdownMenus.forEach(function(menu) {
+        // Überprüfen Sie, ob der Klick außerhalb des Dropdown-Menüs erfolgt ist
+        if (!menu.contains(event.target)) {
+            // Fügen Sie eine Verzögerung von 200 Millisekunden hinzu, bevor das Dropdown-Menü geschlossen wird
+            setTimeout(function() {
+                menu.classList.remove('show'); // Hier "show" ist die Klasse, die das Dropdown-Menü anzeigt
+            }, 200); // Ändern Sie diese Zahl nach Bedarf, um die Verzögerung anzupassen
+        }
+    });
+});
+4. margin im bottomheader
+5.searchbar active orange 
+6.

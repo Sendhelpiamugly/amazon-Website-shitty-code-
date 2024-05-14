@@ -1,0 +1,36 @@
+.sidebarContainer {
+    color:rgb(15, 17, 17);
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+    float: left;
+    width: 200px;
+    position: relative;
+}
+.itemHeader {
+    font-size: 14px;
+}
+.itemContainer {
+    display: block;
+    position: relative;
+    margin-right: 0;
+}
+.item {
+    margin-left: 0;/* dont remove this again u dimwit  */
+    padding-top: 1px;
+}
+.item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sidebarContainer::after {
+    content: "";
+    border-left: 1px solid #e7e6e6;
+    height: 765px;
+    position: absolute;/* dont remove this again u dimwit and also soulmate is relative */
+    left: 50%;
+    margin: 0px 20px 0px 82px;
+    top: 0;
+} 
+

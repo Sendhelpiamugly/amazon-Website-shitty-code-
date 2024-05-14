@@ -1,0 +1,309 @@
+/* Amazon Header CSS */
+.navBelt {
+    display: column;
+    font-family:Amazon Ember, Arial, sans-serif;
+}
+.navBeltTop {
+    background-color: #131921;
+    color: white;
+    height: 60px;
+}
+.leftHeader {
+    display: flex;
+    flex-direction: row; 
+    color: white;
+    background-color: #131921;
+    height: 60px;
+}
+.amazonLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 6px 8px 6px 8px;
+    padding-top: 6px;
+    padding-right: 3px;
+}
+.amazonLogoContainer:hover {
+    cursor: pointer;
+    border : 1px solid white;
+    border-radius: 2px;
+}
+
+.amazonLogo {
+    height: 40px;
+    padding: 5px 0px 12px 5px;
+}
+.logoEnd {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;   
+    height: 20px;
+}
+.locationHeader {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 39px;
+}
+.locationNavBar {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    justify-content: center;
+    line-height: 0.6;
+    align-items: center;
+    height: 50px;
+    padding-right: 9px;
+    margin: 5px 2px 2px 0px;
+}
+
+.logo_vessel:hover,
+.locationNavBar:hover {
+    border : 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.locationLogo {
+    width: 23px;
+    height: 18px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.actualLocation {
+    font-size: 12px;
+    color: rgb(204, 204, 204);
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+.changeLocation {
+    font-size: 14px;
+    font-weight: 700;
+}
+.middleHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 60px;
+    margin: 0px 15px 0px 25px;
+    padding-bottom: 5px;
+
+}
+/*.wholeSearchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}*/
+.navLeft {
+    font-size: 14px;
+    border-color: grey;
+
+}
+.chooseCategorySearchbar:hover,
+.navLeft:hover {
+    color: black;
+    background-color: rgb(169, 168, 168) ;
+    border-color: rgb(169, 168, 168);
+    border-bottom-left-radius : 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+}
+.searchBar:active, .searchBar:focus,
+.searchIconContainer:active, .searchIconContainer:focus,
+.chooseCategorySearchbar:focus, .chooseCategorySearchbar:active {
+    outline: none; /* Entfernt den schwarzen auto Rand um das Suchfeld */
+    box-shadow: 0 0 0 2px rgb(210, 120, 3); /* Hier setzen Sie den Offset, die Ausbreitung und die Farbe für die Box-Schatten */
+    border-color: rgb(210, 120, 3); /* Ändert die Rahmenfarbe */
+}
+
+.chooseCategorySearchbar {
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 230, 230);
+    border-bottom-left-radius : 4px;
+    border-top-left-radius: 4px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-bottom-width: 1px;
+    border-color:rgb(230, 230, 230) ;
+    height: 40px;
+    width: 55px;
+    padding-left: 5px;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowKey2 {
+    width: 10px;
+    height: 6px;
+    margin-left: 1px;
+    padding-bottom: 3px;
+}
+.searchBar {
+    display: flex;
+    user-select: none;
+    height: 40px;
+    padding: 0px;
+    flex: 1;
+}
+.searchBar::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 6px;
+}
+.searchIconContainer {
+    background-color: #febd69;
+    color: white;
+    border-color: #febd69;
+    height: 40px;
+    padding: 7px;
+    border: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.searchIconContainer:hover {
+    background-color: #eca03b;
+    border-color: #eca03b;
+    cursor: pointer;
+
+}
+.searchIconButton {
+    height: 25px;
+}
+.rightHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.flag {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.country {
+    color: white;
+    font-weight: 700;
+    margin-left: 4px;
+}
+.locationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 5px;
+    height: 50px;
+}
+.loginContainer {
+    display: flex;
+    flex-direction: row;         
+}
+.login {
+    display: flex;
+    flex-direction: column;
+}
+.cartAndOrders {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 5px;
+}
+.cart {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.cartCount {
+    position: absolute;
+    color: #f08804;
+    font-size: 16px;
+    font-weight: 700;
+    top: -6px;
+    right: 69px;
+    text-shadow: 0 0 1px #000, 0 0 1px #000; /* Hier wird ein Schatten hinzugefügt */
+
+}
+.navLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 2px;
+    height: 10px;
+}
+.navLine1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navLine2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 19px;
+    font-weight: 700;
+}
+.arrowKey {
+    opacity: 0.6;
+    width: 8px;
+    height: 4px;
+    margin-left: 1px;
+}
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cartIcon {
+    height: 35px;
+    position: relative;
+    margin-left: 5px;
+}
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+}
+/* vergessen wofür das war 
+Punkt.point {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border: 2px solid #F90; 
+    border-radius: 50%; 
+}
+
+.point::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #FFF;
+    border-radius: 50%;
+    margin: 2px; 
+} */

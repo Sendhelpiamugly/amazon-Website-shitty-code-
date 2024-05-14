@@ -1,0 +1,127 @@
+/*if its yellow, but not an error we dont care :) */
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Amazon Ember, Arial, sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+p {
+    font-family: Amazon Ember, Arial, sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* .dropdown {
+    position: absolute;
+    border-radius: 4px;
+    border-color: lightgrey;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    cursor: default;
+    color: black;
+}
+
+.container {
+    width: 100%; /* Standardbreite */
+    /*max-width: 500px;  Maximale Breite für kleinere Bildschirme */
+    font-family: Amazon Ember, Arial, sans-serif;
+}
+
+.h1 {
+    font-size: 30px; /* Größe für Überschriften */
+    font-weight: bold; /* Fettgedruckt für Überschriften */
+}
+
+main * {
+    color: black;
+    font-family: Amazon Ember, Arial, sans-serif;
+    margin: 0 8px 0 8px;
+}
+
+/* * :hover {
+    Gewünschter Effekt, der für alle Elemente beim Überfahren mit der Maus gilt 
+}*/
+
+.highlighted3,
+.highlighted2,
+.highlighted {
+    color: rgb(13, 124, 155); /* Farbe für den hervorgehobenen Text */
+    font-size: smaller; /* Kleinere Schriftgröße für den hervorgehobenen Text */
+}
+
+.highlighted {
+    margin-left: 4px;
+}
+
+.highlighted2 {
+    margin-left: 110px;
+}
+
+.highlighted3 {
+    margin-left: 30px;
+    font-size: 12px !important;
+}
+
+.highlighted:active, .highlighted:hover,
+.highlighted2:active, .highlighted2:hover,
+.highlighted3:active, .highlighted3:hover {
+    color: rgb(210, 120, 3);
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 700px; /* Breite ab einer Bildschirmbreite von 768px */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 900px; /* Breite ab einer Bildschirmbreite von 1024px */
+    }
+}
+/*@media screen and (min-width: 20em) {
+    br {
+    /* hide the BR tag for wider screens (i.e. no line break) /
+    display: none; 
+    }
+}*/
+
+/* alternative!!!! 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5)
+{
+    body
+    {
+        background-image: url('https://m.media-amazon.com/images/G/01/digital/video/sonata/DESKTOP_HERO_PVOD_2X._CB669228634_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}*/ 
+
+/*li ist liste mit punkten*/
+
+/* 
+was ist hr?
+<p>Dies ist ein Absatz.</p>
+<hr>
+<p>Dies ist ein weiterer Absatz, getrennt durch eine horizontale Linie.</p>
+ */

@@ -1,0 +1,38 @@
+.pageHeader {
+    margin: 45px 0 45px  0; 
+}
+.pageHeaderTextContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgb(175, 206, 226);
+}
+.pageHeaderText {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 10px 7px 15px;
+    white-space: nowrap;
+}
+.pageHeaderText:hover {
+    color: rgb(210, 120, 3);
+    cursor: pointer;
+    border-bottom: 2px solid rgb(210, 120, 3);
+}
+.paragraphTextBestseller {
+    font-size: 28px; /* Setzt die Schriftgröße des Texts innerhalb des main-Elements auf 14px */
+    margin-top: -20px;
+    margin-bottom: 4px;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+}
+.paragraphText {
+    margin: 18px 0 18px -1px;
+
+}
+.paragraphUnderText {
+    font-size: 12px; /* Setzt die Schriftgröße des Texts innerhalb des main-Elements auf 14px */
+    color: rgb(66, 66, 66);
+}
+.productBestseller {
+    margin-bottom: 20px;
+}

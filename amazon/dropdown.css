@@ -1,0 +1,104 @@
+
+.NavContainer:hover {
+    border : 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.NavContainer {
+    padding: 6px 9px 10px;
+    line-height: 1;
+    position: relative;
+}
+.NavContainer  .dropdown {
+    position: absolute;
+    display: none;/*sehr wichtig damit das nur angezeigt wird wenn man auf button drauf hovert */
+    white-space: nowrap;
+    overflow-x: auto;
+    font-weight: 400;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    padding: 20px;
+    z-index: 1000;
+    left: -200px; 
+
+}
+.NavContainer:hover .dropdown {
+    display: flex;
+    opacity: 1; 
+}  
+
+.navText {
+    font: 13px Amazon Ember, Arial, sans-serif;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding: 0px 0px 7px 0px;
+}
+hr.solid {
+    border-top: 1px solid #e7e6e6;
+    margin: 7px 0px 7px 15px;   
+}
+hr.solidUnderLanguage {
+    border-top: 1px solid #e7e6e6;
+    margin: 7px 0px 7px 0px; 
+    
+}
+.dropdownFLag{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 7px 0px;
+}
+.flag2 {
+    height: 20px;
+    width: 20px;
+    margin: 5px 3px 0px 5px;
+}
+.dropdownLogin {
+    color: rgb(45, 44, 44);
+    background-color: rgb(246, 207, 134);
+    padding: 10px 60px 10px 60px;
+    border-radius: 8px;
+}
+.dropdownHeaderText {
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 11px;
+    color: grey;
+}
+.dropdownLoginHeader {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+.loginHeader {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 120px 0px 120px;
+    margin-bottom: 16px;
+}
+.leftSection {
+    line-height: 1.5;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+.dropdownSection {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    line-height: 1.5;
+}
+.leftSection::after {
+    content: "";
+    border-left: 1px solid #e7e6e6;
+    height: 420px;
+    position: absolute;
+    left: 50%;
+    margin: 110px 20px 0px -40px;
+    top: 0;
+}

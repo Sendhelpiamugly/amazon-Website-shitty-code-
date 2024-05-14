@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+            Amazon.com
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="TopHeader.css">
+        <link rel="stylesheet" href="BottomHeader.css">
+        <link rel="stylesheet" href="dropdown.css">
+        <link rel="stylesheet" href="pagerheader.css">
+        <link rel="stylesheet" href="sideBar.css">
+        <link rel="stylesheet" href="preview.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="Pics/social.png">
+        <link href="https://db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember+Regular" rel="stylesheet">
+    </head>
+    <body>
+        <header class="navBelt">
+            <div class="navBeltTop">
+                <section class="leftHeader">
+                        <div class="amazonLogoContainer">
+                            <img src="Pics/headerIcons/pngimg.com - amazon_PNG25.png" class="amazonLogo">
+                            <p class="logoEnd">
+                                .de
+                            </p>
+                        </div>
+                                            
+                    <section class="locationNavBar">
+                        <img src="Pics/headerIcons/icons8-location-50.png" class="locationLogo">
+                        <div class="locationHeader"> 
+                            <div class="actualLocation">
+                                Lieferung an Völklingen 66333
+                                
+                            </div>
+                            <div class="changeLocation">
+                                Standort aktualisieren
+                            </div>
+                        </div>
+                        
+                    </section>
+                    <section class="middleHeader">
+                        <div class="navLeft">
+                            <button class="chooseCategorySearchbar">
+                                Alle 
+                                <span class="arrowKey2">
+                                    &#129171;
+                                </span>
+                            </button>
+                        </div>
+                        <input type="text" placeholder="Suche Amazon.de" class="searchBar">
+                        <button class= "searchIconContainer">
+                            <img src="Pics/headerIcons/icons8-search-ios-17-outlined/icons8-search-50.png" class="searchIconButton">
+                        </button>
+                    </section>
+                    <section class="rightHeader">
+                        <div class="NavContainer">
+                            <span class="navLine"></span>
+                            <span class="navLine2">
+                                <div class="locationCountry">
+                                    <img src="Pics/headerIcons/germany.png" class="flag">
+                                </div>
+                                <p class="country">
+                                    DE
+                                <span class="arrowKey">
+                                    &#129171;
+                                </span>
+                            </span>
+                            <!-- Dropdown-Inhalt -->
+                            <ul class="dropdown" mdbDropdown [autoClose]="false">
+                                <div class="navText" >
+                                    <div class = "dropHeader" >
+                                        <p class = "dropdownHeader">Sprache ändern   <span class="highlighted">Weitere Informationen</span></p>                                    
+                                    </div>
+                                    <li class="language" >&#9675;  Deutsch &#8212; DE </li>
+                                    <hr class="solid">
+                                    <span class="language" >&#9675; Englisch &#8212; EN </span>
+                                    <span class="language" >&#9675;  čeština &#8212; CS </span>
+                                    <span class="language" >&#9675;  Nederlands &#8212; NL </span>
+                                    <span class="language" >&#9675;  polski  &#8212; PL </span>
+                                    <span class="language" >&#9675;  Türkçe  &#8212; TR </span>
+                                    <span class="language" >&#9675;  dansk  &#8212; DA </span>
+                                    <hr class="solidUnderLanguage">
+                                    <div class = "dropHeader">
+                                        <p class = "dropdownHeader">Währung ändern   <span class="highlighted">Weitere Informationen</span></p>                                    
+                                    </div>
+                                    <span class="currency" >&#9675;  EUR - Euro <span class="highlighted2">Ändern</span></span>
+                                    <hr class="solidUnderLanguage">
+                                    <div class = "dropdownFLag">
+                                        <img src="Pics/headerIcons/germany.png " class="flag2" >
+                                        <p> 
+                                            Sie kaufen bei Amazon.de ein.
+                                        </p>
+                                    </div>
+                                    <span class="highlighted3">Land/Region ändern</span>
+                                    </div>
+
+                            </ul> 
+                        </div>
+                        <div class="NavContainer">
+                            <div class="login">
+                                <p class="navLine1">
+                                    Hallo, anmelden
+                                </p>
+                                <div class="navLine2">
+                                    <p class="accounts">
+                                        Konto und Listen 
+                                    </p>
+                                    <span class="arrowKey">
+                                        &#129171;
+                                    </span> 
+                                </div>      
+                            </div>
+                            <!-- Dropdown-Inhalt -->
+                            <ul class="dropdown">
+                                <div class="loginHeader">
+                                    <div class="dropdownLoginHeader">
+                                        <button class="dropdownLogin">
+                                            Anmelden
+                                        </button>
+                                        <p class="dropdownHeaderText">
+                                            Neuer Kunde? 
+                                            <span onmouseover="this.style.cursor='pointer';this.style.color='orange'; this.style.textDecoration='underline'" onmouseout="this.style.color='rgb(13, 124, 155)'; this.style.textDecoration='none'" style="color: rgb(13, 124, 155);">Starte hier.</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <hr class="solidUnderLanguage">
+                                <section class="dropdownSection">
+                                    <section class="leftSection">
+                                        <h1>
+                                            Meine Listen
+                                        </h1>
+                                        <p style="color: rgb(46, 45, 45);">Geschenke finden</p>
+                                        <p style="color: rgb(46, 45, 45);">Neue Liste anlegen</p>
+                                        <p style="color: rgb(46, 45, 45);">Hochzeitsliste</p>
+                                        <p style="color: rgb(46, 45, 45);">Baby-Wunschliste</p>
+                                        <p style="color: rgb(46, 45, 45);">Finden deinen Stil</p>
+                                        <p style="color: rgb(46, 45, 45);">Entdecke Showroom</p>
+                                    </section>
+                                    <section class="rightSection">   
+                                        <h1>
+                                            Mein Konto
+                                        </h1>
+                                        <p style="color: gray;">Mein Konto</p>
+                                        <p style="color: gray;">Meine Bestellungen</p>
+                                        <p style="color: gray;">Wunschzetttel</p>
+                                        <p style="color: gray;">Empfehlungen</p>
+                                        <p style="color: gray;">Spar-Abo verwalten</p>
+                                        <p style="color: gray;">Meine Haustiere</p>
+                                        <p style="color: gray;">Meine Mitgliedschaften & Abonnements</p>
+                                        <p style="color: gray;">Meine Prime-Mitgliedschaft</p>
+                                        <p style="color: gray;">Meine Inhalte und Geräte</p>
+                                        <p style="color: gray;">Mein Prime Music</p>
+                                        <p style="color: gray;">Meine Musikbiliothek</p>
+                                        <p style="color: gray;">Meine Amazon Photos</p>
+                                        <p style="color: gray;">Mein Prime Video</p>
+                                        <p style="color: gray;">Mein Kindle Unlimited</p>
+                                        <p style="color: gray;">Meine Watchlist</p>
+                                        <p style="color: gray;">Meine gekauften und geliehenen Videos</p>
+                                        <p style="color: gray;">Meine Games- & Softwarebibliothek</p>
+                                        <p style="color: gray;">Meine Apps & Geräte</p>
+                                        <p style="color: gray;">Kostenloses Unternehmenskonto erstellen</p>
+                                    </section>
+                                </section>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="NavContainer">
+                            <div class="cartAndOrders">
+                                <p class="navLine1">
+                                    Warenrücksendungen 
+                                </p>
+                                <p class="navLine2">
+                                    und Bestellungen
+                                </p>
+                            </div>
+                        </div>
+                        <div class="NavContainer">
+                            <div class="cart">
+                                <img src="Pics/headerIcons/icons8-cart-48.png" class="cartIcon">
+                                <div class="cartContainer">
+                                    <p class="navLine1">
+                                        Einkaufs-
+                                    </p>
+                                    <p class="navLine2">
+                                        wagen
+                                    </p>
+                                </div> 
+                                <div class="cartCount">
+                                    0
+                                </div>                           
+                            </div>
+                        </div>
+                        
+                    </section>
+            </section>
+            <div class="navBeltBottom">
+                <section class="nav">
+                    <div class="navLeft2">
+                        <div class="navHamburgerMenu">
+                            <nav class="hamburgermenuContainer">
+                                <img src="Pics/headerIcons/icons8-menu-50.png" class="hamburgermenu">
+                            </nav>
+                            <p class="menuLabel">
+                                Alle
+                            </p>
+                        </div>
+                    </div>
+                    <div class="navMiddle">
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Bestseller
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Amazon Basics
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Neuerscheinungen
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Angebote
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Musik
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Prime
+                            </p>
+                            <span class="arrowKey2">
+                                &#129171;
+                            </span>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Prime Video
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Gutscheine
+                            </p>
+                            <span class="arrowKey2">
+                                &#129171;
+                            </span>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Mode
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Shopping-Tipps
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Bücher
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Lebensmittel
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Küche, Haushalt & Wohnen
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Geschenkideen
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Elektronik & Foto
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Games
+                            </p>
+                        </div>
+                        <div class= "navMiddleContainer">
+                            <p class="navMiddleText">
+                                Spielzug
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="navRight">
+                    <img src="Pics/headerIcons/SWM_400x39_DE_FT_T2._CB480865239_.jpg" class="navImgRight">
+                </section>
+            </div>
+        </div>
+            
+        </header>
+        <main>
+            <div class="pageHeader">
+                <div class="pageHeaderTextContainer">
+                    <span class="pageHeaderText">Bestseller</span>
+                    <span class="pageHeaderText">Neuerscheinungen</span>
+                    <span class="pageHeaderText">Aufsteiger des Tages</span>
+                    <span class="pageHeaderText">Am häufigsten gewünscht </span>
+                    <span class="pageHeaderText">Am häufigsten geschenkt</span>
+                </div>
+            </div>
+            <div class="paragraphText">
+                <h1 class="paragraphTextBestseller">Bestseller</h1>
+                <p class="paragraphUnderText">
+                    Unsere beliebstesten Produkte, basierend auf Verkaufszahlen. Wird häufig aktualisiert.
+                </p>
+            </div>
+            <div class="mainPreview">
+                <div class="sidebarContainer">
+                    <h5 class="itemHeader">Alle Kategorien</h5>
+                    <p class="itemContainer"><span class="item">Amazon Renewed</span></p> 
+                    <p class="itemContainer"><span class="item">Amazon-Geräte & Zubehör</span></p>
+                    <p class="itemContainer"><span class="item">Apps & Spiele</span></p>
+                    <p class="itemContainer"><span class="item">Auto & Motorrad</span></p>
+                    <p class="itemContainer"><span class="item">Baby</span></p>
+                    <p class="itemContainer"><span class="item">Baumarkt</span></p>
+                    <p class="itemContainer"><span class="item">Beleuchtung</span></p>
+                    <p class="itemContainer"><span class="item">Bücher</span></p>
+                    <p class="itemContainer"><span class="item">Bürobedarf & Schreibwaren</span></p>
+                    <p class="itemContainer"><span class="item">Climate Pledge Friendly</span></p>
+                    <p class="itemContainer"><span class="item">Computer & Zubehör</span></p>
+                    <p class="itemContainer"><span class="item">Drogerie & Körperpflege</span></p>
+                    <p class="itemContainer"><span class="item">DVD & Blu-ray</span></p>
+                    <p class="itemContainer"><span class="item">Elektro-Großgeräte</span></p>
+                    <p class="itemContainer"><span class="item">Elektronik & Foto</span></p>
+                    <p class="itemContainer"><span class="item">Fashion</span></p>
+                    <p class="itemContainer"><span class="item">Games</span></p>
+                    <p class="itemContainer"><span class="item">Garten</span></p>
+                    <p class="itemContainer"><span class="item">Geschenkgutscheine</span></p>
+                    <p class="itemContainer"><span class="item">Gewerbe, Industrie & <br> Wissenschaft</span></p>
+                    <p class="itemContainer"><span class="item">Handmade-Produkte</span></p>
+                    <p class="itemContainer"><span class="item">Haustier</span></p>
+                    <p class="itemContainer"><span class="item">Kamera & Foto</span></p>
+                    <p class="itemContainer"><span class="item">Kindle-ShoSSp</span></p>
+                    <p class="itemContainer"><span class="item">Kosmetik</span></p>
+                    <p class="itemContainer"><span class="item">Küche, Haushalt & Wohnen</span></p>
+                    <p class="itemContainer"><span class="item">Lebensmittel & Getränke</span></p>
+                    <p class="itemContainer"><span class="item">Musik-CDs & Vinyl</span></p>
+                    <p class="itemContainer"><span class="item">Musik-Downloads</span></p>
+                    <p class="itemContainer"><span class="item">Musikinstrumente & DJ- <br> Equipment</span></p>
+                    <p class="itemContainer"><span class="item">Neue Fundstücke</span></p>
+                    <p class="itemContainer"><span class="item">Prime Video</span></p>
+                    <p class="itemContainer"><span class="item">Software</span></p>
+                    <p class="itemContainer"><span class="item">Spielzeug</span></p>
+                    <p class="itemContainer"><span class="item">Sport & Freizeit</span></p>
+                    </div>
+                <div class="productContainerHeader">
+                    <div class="productBestseller">
+                        Bestseller in Kosmetik <span class="productWeitere">Weitere </span> </div>      
+                    <p class="pageCounter">
+                        Seite 1 von 7
+                    </p>
+                    </div> 
+                    <div class="productsPreview">
+                        <div class="sideArrowButtonContainer">
+                            <button class="sideArrowButton"> 	&#60; </button>
+                        </div>
+                        <div class="productContainer">
+                            <div class="productImageCount">
+                                <div class="productCountContainer"> 
+                                    <button class="productCount"> #1</button>
+                                </div>                            
+                                <img src="Pics\icons\61NFkX7td8L._AC_UL450_SR450_320_-removebg-preview.png" class="productImage">
+                            </div>
+                            <div class="productDescription">
+                                <p class="productTitle">Mielle Organics Mielle Rosemary Mint Kopfhaut- und Haarstärkungsöl für gesundes Haarwachstum, 2 oz 59 ml</p>
+                                <p class="productRating"> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span><span>81.777</span></p>
+                                <p class="productPrice">12,50 € (211,86 €/l)</p>
+                            </div>
+                            
+                        </div>
+                        <div class="productContainer">
+                            <div class="productImageCount">
+                                <div class="productCountContainer">
+                                    <button class="productCount"> #2</button>
+                                </div>
+                                <img src="Pics\icons\71igfMvqqfL._AC_UL450_SR450_320_-removebg-preview.png" class="productImage">
+                            </div>
+                            <div class="productDescription">
+                                <p class="productTitle">
+                                Ninabella Bio Haarbürste ohne Ziepen für Damen, Herren & Kinder - Entwirrbürste auch für Locken & Lange Haare - Einzigartige Profi…</p>
+                                <p class="productRating"> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span><span>40.406</span></p>
+                                <p class="productPrice">9,99 € (9,99 €/stück)</p>
+                            </div>
+                        </div>
+                        <div class="productContainer">
+                            <div class="productImageCount">
+                                <div class="productCountContainer">
+                                    <button class="productCount"> #3</button>
+                                </div>                            
+                                <img src="Pics\icons\61qUV36b+cL._AC_UL450_SR450_320_-removebg-preview.png" class="productImage">
+                            </div>
+                            <div class="productDescription">
+                                <p class="productTitle">
+                                Ladival Allergische Haut Sonnenschutz Gel LSF 30 - Parfümfreies Sonnengel für Allergiker - ohne Farb- und…</p>
+                            <p class="productRating"> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><span>1.335</span></p>
+                            <p class="productPrice">12,60 € (63,00 €/l)</p>
+                            </div>
+                        </div>
+                        <div class="sideArrowButtonContainer">
+                            <button class="sideArrowButton"> &#62; </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainerHeader">
+                    <div class="productBestseller">
+                        Bestseller in Baumarkt <span class="productWeitere">Weitere </span> </div>      
+                    <p class="pageCounter">
+                        Seite 1 von 7
+                    </p>
+                    </div> 
+                    <div class="productsPreview">
+                        <div class="sideArrowButtonContainer">
+                            <button class="sideArrowButton"> 	&#60; </button>
+                        </div>
+                        <div class="productContainer">
+                            <div class="productImageCount">
+                                <div class="productCountContainer"> 
+                                    <button class="productCount"> #1</button>
+                                </div>                            
+                                <img src="Pics\icons\61jV24+8NSL._AC_UL450_SR450_320_-removebg-preview.png" class="productImage">
+                            </div>
+                            <div class="productDescription">
+                                <p class="productTitle">
+                                Apalus Fliegengitter Tür, Magnet Insektenschutz 90x210cm, Der Magnetvorhang Ist Ideal Für Die Balkontür, Kellertür und…</p>
+                            <p class="productRating"> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><span>77.300</span> </p>
+                            <p class="productPrice">16,99 €</p>
+                            </div>
+                        </div>
+                        <div class="productContainer">
+                            <div class="productImageCount">
+                                <div class="productCountContainer">
+                                    <button class="productCount"> #2</button>
+                                </div>
+                                <img src="Pics\icons\71Ebgn-hsRL._AC_UL450_SR450_320_-removebg-preview.png" class="productImage">
+                            </div>
+                            <div class="productDescription">
+                                <p class="productTitle">
+                                tesa Insect Stop Standard Fliegengitter für Fenster - Insektenschutz zuschneidbar - Mückenschutz ohne Bohren - 1 x…</p>
+                            <p class="productRating"> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><span>27.966</span></p>
+                            <p class="productPrice">5,38 € </p>
+                            </div>
+                        </div>
+                        <div class="productContainer">   
+                            <div class="productImageCount">
+                                <div class="productCountContainer">
+                                    <button class="productCount"> #3</button>
+                                </div>                            
+                                <img src="Pics\icons\410-Wox3MxL._AC_UL450_SR450_320_-removebg-preview.png" class="productImage">
+                            </div>
+                            <div class="productDescription">
+                                <p class="productTitle">
+                                Molto S.O.S easy Wandfarbe 30ml, weiss</p>
+                            <p class="productRating"> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><span>4.254</span></p>
+                            <p class="productPrice">2,45 € (81,67 €/l)</p>
+                            </div>
+                        </div>
+                        <div class="sideArrowButtonContainer">
+                            <button class="sideArrowButton"> &#62; </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+    </body> 
+</html>
+
+<!-- Author: 
+  _   _ _                _            _   _      
+ | \ | (_)              | |          | | (_)     
+ |  \| |_ _ __ ___   ___| |_ __ _ ___| |_ _  ___ 
+ | . ` | | '_ ` _ \ / _ \ __/ _` / __| __| |/ __|
+ | |\  | | | | | | |  __/ || (_| \__ \ |_| | (__ 
+ |_| \_|_|_| |_| |_|\___|\__\__,_|___/\__|_|\___|
+-->

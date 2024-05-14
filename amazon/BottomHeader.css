@@ -1,0 +1,93 @@
+.navBeltBottom {
+    background-color: rgb(35, 47, 62);
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.navMiddle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 39px;
+
+}
+/* Medienabfrage für Bildschirmgrößen kleiner als 600px */
+@media only screen and (max-width: 600px) {
+    /* Verstecke einige Navigationslinks */
+    .hidden-on-small {
+        display: none;
+    }
+}
+.navMiddleContainer {
+    display: flex;
+    margin: 8px 4px;
+    padding: 5px;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+/*kp warum ich das gemacht habe  aber es bleibt vorerst drin
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.navMiddleContainer:hover .dropdown {
+    display: block;
+}*/
+.navMiddleContainer:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.navMiddleContainer:active {
+    color:lightgrey
+}
+
+.navMiddleText {
+    font-weight: 600;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.navLeft2 {
+    padding: 7px 8px;
+}
+.navHamburgerMenu:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.navHamburgerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hamburgermenu {
+width: 17px;
+height: 20px;
+}
+.menuLabel {
+    color: white;
+    font-weight: 700;
+    padding-left: 6px;
+}
+.navRight {
+    padding-left: 18px;
+}
+.navRight:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
